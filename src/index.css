@@ -1,0 +1,249 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.text_nav {
+  color: var(--Primary, #246BFD);
+  font-family: Urbanist;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+._nav {
+  color: #000;
+  font-family: Urbanist;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.bord {
+  border-radius: 20px;
+  border: 0.5px solid var(--Primary, #246BFD);
+}
+
+._nev_text {
+  color: #9F9F9F;
+  font-family: Raleway;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+._nev_bell {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+._nev_image {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+
+}
+
+.main_box {
+  width: 1140px;
+  height: 180px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: linear-gradient(97deg, #000 50.47%, #3F3F3F 95.91%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.Arrow_home {
+  display: flex;
+  width: 20px;
+  height: 20.082px;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+}
+
+.Arrow_home_1 {
+  display: flex;
+  width: 20px;
+  height: 20.082px;
+  transform: rotate(-180deg);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.home_recent {
+  color: #000;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.home_see {
+  color: var(--Primary, #246BFD);
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.cart {
+  width: 300px;
+  height: 230px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 0.5px solid #C0C0C0;
+  background: #FFF;
+}
+
+.name_card {
+  color: #000;
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+}
+
+.info_card {
+  color: #A1A1A1;
+  font-family: Urbanist;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.line_border {
+  width: 268px;
+  height: 0.3px;
+  background: #9F9F9F;
+}
+
+.content {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Urbanist;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.tag {
+  display: inline-flex;
+  padding: 8px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid #9E9E9E;
+}
+
+.view {
+  color: var(--Primary, #246BFD);
+  font-family: Urbanist;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.botton_home {
+  display: inline-flex;
+  padding: 10px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  border: 1px solid var(--Primary, #246BFD);
+}
+
+.botton_name {
+  color: var(--Primary, #246BFD);
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.botton_home_spc {
+  display: inline-flex;
+  padding: 10px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  background: var(--Primary, #246BFD);
+}
+
+.botton_name_spc {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.img_footer {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.last_name {
+  color: #7C7C7C;
+  font-family: Urbanist;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  padding-left: 3rem;
+}
+
+.text_last{
+  color: #7C7C7C;
+font-family: Urbanist;
+font-size: 8px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.08px;
+}
+.nav_border{
+  background: #FFF;
+box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
+}
